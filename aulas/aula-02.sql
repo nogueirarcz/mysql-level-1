@@ -30,3 +30,11 @@ CREATE TABLE IF NOT EXISTS tbl_categorias(
     nome_categoria varchar(30) not null         -- Nome da categoria
 
 );
+
+-- Criando a tabela de editoras
+CREATE TABLE IF NOT EXISTS tbl_editoras(
+
+    id_editora smallint primary key auto_increment,
+    nome_editora varchar(50) not null
+
+);
