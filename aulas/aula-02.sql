@@ -13,3 +13,12 @@ CREATE TABLE IF NOT EXISTS tbl_livro(
   preco_livro decimal(6,2) not null             -- O preço de venda deste livro
 
 );
+
+-- Criando a tabela de autores
+CREATE TABLE IF NOT EXISTS tbl_autores(
+
+    id_autor smallint primary key,              -- Chave primária, que terá relação com id_autor em livro
+    nome_autor varchar(50) not null,            -- Nome do autor
+    sobrenome_autor varchar(60) not null        -- Sobrenome do autor
+
+);
