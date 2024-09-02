@@ -22,3 +22,11 @@ CREATE TABLE IF NOT EXISTS tbl_autores(
     sobrenome_autor varchar(60) not null        -- Sobrenome do autor
 
 );
+
+-- Criando a tabela de categorias
+CREATE TABLE IF NOT EXISTS tbl_categorias(
+
+    id_categoria smallint primary key,          -- PK que irá relacionar com id_categoria em livro
+    nome_categoria varchar(30) not null         -- Nome da categoria
+
+);
