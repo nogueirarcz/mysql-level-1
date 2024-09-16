@@ -7,6 +7,8 @@ insert into tbl_editoras (nome_editora) values ('Microsoft Press');
 
 insert into tbl_editoras (nome_editora) values ('Wiley');
 
+insert into tbl_editoras (Nome_Editora) values ('McGraw-Hill Education');
+
 -- Consultando os valores inseridos
 select * from tbl_editoras;
 
